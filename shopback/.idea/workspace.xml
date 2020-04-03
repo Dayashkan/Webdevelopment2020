@@ -65,6 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1585306287250</updated>
       <workItem from="1585306295647" duration="5862000" />
+      <workItem from="1585373422137" duration="900000" />
+      <workItem from="1585471553105" duration="1160000" />
+      <workItem from="1585917854088" duration="434000" />
     </task>
     <servers />
   </component>
@@ -76,18 +79,18 @@
       <screen x="0" y="0" width="1536" height="783" />
     </state>
     <state x="223" y="47" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.783@0.0.1536.783" timestamp="1585307643649" />
-    <state x="548" y="146" key="FileChooserDialogImpl" timestamp="1585307461464">
+    <state x="548" y="146" key="FileChooserDialogImpl" timestamp="1585918275729">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state x="548" y="146" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1585307461464" />
-    <state x="277" y="34" key="SettingsEditor" timestamp="1585307543756">
+    <state x="548" y="146" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1585918275729" />
+    <state x="277" y="34" key="SettingsEditor" timestamp="1585373530492">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state x="277" y="34" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1585307543756" />
-    <state x="465" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1585306296781">
+    <state x="277" y="34" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1585373530492" />
+    <state x="465" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1585918106689">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state x="465" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.783@0.0.1536.783" timestamp="1585306296781" />
+    <state x="465" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.783@0.0.1536.783" timestamp="1585918106689" />
     <state x="431" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1585307081204">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
