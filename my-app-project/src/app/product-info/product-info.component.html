@@ -1,0 +1,34 @@
+<div class="clear"></div>
+<div class="element" *ngIf="product">
+
+  <h3>
+    <a [title]="product.name + ' details'" href="{{product.link}}">
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <div class="imgs">
+    <img src="{{product.img[0]}}"  height="300px" width="300px" alt="">
+    <img src="{{product.img[1]}}"   height="300px" width="300px" alt="">
+    <img src="{{product.img[2]}}"   height="300px" width="300px" alt="">
+  </div>
+
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+
+  <div class="rating">Rating:<span class="ratingNum">{{product.rating}}</span></div>
+
+  <button (click)="share(product)">
+    Share
+  </button>
+
+
+  <app-product-alerts
+  [product]="product"
+  (notify) = "onNotify(product)">
+  </app-product-alerts>
+
+  <div class="catID">categoryID: {{product.categoryID}}</div>
+
+</div>

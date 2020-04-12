@@ -1,0 +1,23 @@
+a{
+    display: block;
+    margin-bottom: 10px;
+  margin-right: 10px;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    border:1px solid rgb(240, 233, 233);
+    text-align: center;
+    padding:10px;
+    border-radius: 3px;
+    color:white;
+    font-weight: bold;
+    transition: background-color linear 0.2s;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+}

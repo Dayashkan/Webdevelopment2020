@@ -1,0 +1,11 @@
+.clear{
+  clear:both;
+}
+.element {
+  margin: 0 auto;
+  margin-top: 200px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+

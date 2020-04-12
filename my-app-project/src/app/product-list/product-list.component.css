@@ -1,0 +1,19 @@
+p{
+    font-size: 18px;
+}
+
+.rating{
+    color:yellow;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ratingNum{
+    color:red;
+    font-weight: 600;
+}
+
+.element{
+    border:1px dotted rgba(0, 0, 0, 0.3);
+    padding:10px;
+}

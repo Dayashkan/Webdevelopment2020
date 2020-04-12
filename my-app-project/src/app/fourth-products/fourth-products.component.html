@@ -1,0 +1,36 @@
+<div class="products">
+  <div class="element" *ngFor="let product of products">
+    <h3 class="name">
+      <a [title]="product.name + ' details'" href="{{product.link}}"  (click)="selectProduct(product)">
+        {{ product.name }}
+      </a>
+    </h3>
+    <img src="{{product.img[0]}}"  height="300px" width="300px" alt="">
+
+    <div class="details">
+      <a routerLink="/products/productID" (click)="selectProduct(product)" class="info">Show Product Details</a>
+    </div>
+    <!-- <img src="{{product.img[0]}}"  height="300px" alt="">
+    <img src="{{product.img[1]}}"   height="300px" alt="">
+    <img src="{{product.img[2]}}"   height="300px" alt="">
+
+    <p *ngIf="product.description">
+      Description: {{ product.description }}
+    </p>
+
+    <div class="rating">Rating:<span class="ratingNum">{{product.rating}}</span></div>
+
+    <button (click)="share(product)">
+      Share
+    </button>
+
+
+    <app-product-alerts
+    [product]="product"
+    (notify) = "onNotify(product)">
+    </app-product-alerts> -->
+
+    <div class="catID">CategoryID:{{product.categoryID}}</div>
+
+  </div>
+</div>
