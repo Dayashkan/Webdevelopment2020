@@ -15,16 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rest_framework_jwt.views import obtain_jwt_token
+
 from core import views
 
 urlpatterns = [
-    path('', views.HomeListView.as_view(), name='home'),
-    path('detail/<int:pk>/', views.HomeDetailView.as_view(), name='detail_page'),
-    path('edit-page/', views.ArticleCreateView.as_view(), name='edit_page'),
-    path('update-page/<int:pk>/', views.ArticleUpdateView.as_view(), name='update_page'),
-    path('delete-page/<int:pk>/', views.ArticleDeleteView.as_view(), name='delete_page'),
-    path('login', views.MyprojectLoginView.as_view(), name='login_page'),
-    path('register', views.RegisterUserView.as_view(), name='register_page'),
-    path('logout', views.MyProjectLogout.as_view(), name='logout_page'),
+    path('categories', views.CategoryList.as_view()),
+    path('events', views.EventList.as_view()),
+    path('categories/<int:pk>', views.CategoryDetail.as_view()),
+    path('events/<int:pk>', views.EventDetail.as_view()),
+    path('login', obtain_jwt_token),
+    path('categories', views.CategoryList.as_view()),
+
 
 ]
+
+
